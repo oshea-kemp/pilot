@@ -1,2 +1,2 @@
 # pilot
-First Repository - Directed By Teacher
+First Repository - "Don't Break Anything"
