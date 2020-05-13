@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width= device-width, initial-scale= 1.0">
+  <link rel="stylesheet" href="home.css" type="text/css"/>
+  <title>13-05-2020</title>
+</head>
+<body>
+  <div id="header">
+    <h1>Headers Matter</h1>
+  </div>
+	<div class="content">
+		<h2>Headers Matter</h2>
+		<p> 
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			Content Matters Content Matters Content Matters Content Matters
+			
+		</p>
+	</div>
+	
+	<script>
+		window.onscroll = function() {headerShape()};
+
+		function headerShape() {
+			if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+				document.getElementById("header").style.height = "38px";
+			} else {
+				document.getElementById("header").style.height = "66px";
+			}
+		}		
+	</script>
+</body>
+</html>
